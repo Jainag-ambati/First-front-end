@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: yellow;
+}
+
+ {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  color: #555;
+}
+#menu {
+  padding: 20px;
+  width: 80%;
+  max-width: 1100px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0px 0px 50px rgba(0,0,0,.4);
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  margin: 1em 0 2em;
+  color: seagreen;
+  font-size: 2.5em;
+  background-color: red;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 960px;
+  height: 100%;
+}
+.menu .menu-item {
+    display: flex;
+    width: 50%;
+    list-style-type: none;
+    padding: 0 1em;
+    margin: 0 0 2em;
+    color: #000;
+  }
+.menu .menu-item section {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      background-color: rgb(203,200,205);
+    }
+.menu .menu-item section header {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+.menu .menu-item section header .spacer {
+          content: '';
+          width: 100%;
+          height:.75em;
+          margin: 0 .5rem;
+          border-bottom: 2px dotted #999;
+          flex: 1;
+        }
+.menu .menu-item section header h2 {
+          margin: 0;
+          font-size: 1rem;
+          color:rgb(166,39,100);
+          
+        }
+        @media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
+</style>
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<div id='menu'>
+  <h1>
+    bindass
+  </h1>
+  <ul class='menu'>
+    <li class='menu-item'>
+      <section>
+        <header>
+          <h2>
+            Chicken 65
+          </h2>
+          <span class='spacer'></span>
+          <span class='price'>
+            Rs.120
+          </span>
+        </header>
+        <p>
+          Its a must try dish!!!
+        </p>
+      </section>
+    </li>
+    <li class='menu-item'>
+      <section>
+        <header>
+          <h2>
+            Hyderabad Dum Biryani
+          </h2>
+          <span class='spacer'></span>
+          <span class='price'>
+            Rs.295
+          </span>
+        </header>
+        <p>
+          Made up of ghee and with 5 leg pieces in a pack
+        </p>
+      </section>
+    </li>
+    <li class='menu-item'>
+      <section>
+        <header>
+          <h2>
+            Butterscotch Cupcake
+          </h2>
+          <span class='spacer'></span>
+          <span class='price'>
+            Rs.80
+          </span>
+        </header>
+        <p>
+         Its a tasty desert with extra scoop
+        </p>
+     
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
